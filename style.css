@@ -1,0 +1,157 @@
+
+body{
+    background-color: red;
+    background-image: url(./shara\ desert.jpg);
+    color: white;
+    background-position:0px -100px;
+
+}
+ul{                                         
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8vw;
+}
+.listIcon{
+    background-color: gray;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius:50%;
+    position: relative;
+    bottom: 10px;
+}
+.pageBody{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40vw;
+    margin-top: 100px;
+}
+.title{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+.btnExplore{
+    width: 10vw;
+    height: 5vh;
+    background-color:white;
+    border-radius:20px;
+    border: 0px solid white;
+    margin-top: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 35vw;
+    justify-content:space-between;
+    margin:10px 0px 0px 100px;
+}
+.tile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 17vw;
+    height: 40vh;
+    border: 1px solid black;
+    border-radius:15px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.tile1{
+    background-image: url(./pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tile2{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tile3{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tile4{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tile:hover{
+    z-index: 1;
+    position: relative;
+    bottom: 10px;
+    /* cursor:arrow; */
+}
+
+@media all and (max-width: 856px){
+    
+    .pageBody{
+        margin-left: 50px;
+    }
+    ul{
+        width: 40vw;
+        
+    }
+    .content{
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    .title{
+        font-size: 36px;
+        margin: 30px 0px 0px 0px;
+    }
+    .btnExplore{
+        width: 20vw;
+        height: 7vh;
+    }
+    .cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 70vw;
+        justify-content:space-between;
+        margin:40px 0px 0px 100px;
+      
+    }
+    .tile{
+        width: 60vw;
+        height: 40vh;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        justify-content: flex-start;
+    }
+    .tileText{
+        margin-bottom: 0;
+    }
+    .tileHead{
+        margin-bottom: 0px;
+    }
+    .tile1{
+        background-position:0px -100px;
+    }
+    .tile2{
+        background-position:0px -10px;
+    }
+    .tile3{
+        background-position:0px -100px;
+    }
+    .tile4{
+        background-position:0px -250px;
+
+    }
+
+}    
